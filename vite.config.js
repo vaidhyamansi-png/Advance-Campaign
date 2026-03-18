@@ -90,13 +90,18 @@ export default defineConfig({
     },
   },
 
-  build: {
-    outDir: 'dist',  // ✅ ab dist mein jayega
-    chunkSizeWarningLimit: 5000,
+build: {
+  outDir: 'dist',
+  chunkSizeWarningLimit: 5000,
+  rollupOptions: {
+    input: 'index.html',  // ✅ yeh add karo
   },
+},
+
 
   optimizeDeps: {
     exclude: ['vuetify'],
     entries: ['./resources/js/**/*.vue'],
   },
 })
+
