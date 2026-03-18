@@ -1,1 +1,0 @@
-import{a8 as o,al as u,R as m}from"./main-veTpZLAm.js";const l=(a,r,t,i,e=!1)=>{const s=o(),{global:n}=u();return m(()=>n.name.value==="light"?s.skin==="bordered"&&e?t:a:n.name.value==="dark"?s.skin==="bordered"&&e?i:r:a)},g="/Advance-Campaign/assets/misc-mask-dark-D4eSvDKH.png",k="/Advance-Campaign/assets/misc-mask-light-7GUBPWb3.png";export{g as a,k as b,l as u};
