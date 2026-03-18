@@ -108,7 +108,7 @@ export default defineConfig({
     ],
   },
 
-   base: '/Advance-Campaign/'
+   base: 'vaidhyamansi-png/Advance-Campaign'
 
 })
 
